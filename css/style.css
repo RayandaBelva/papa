@@ -106,14 +106,14 @@ body {
         max-width: 80vw; /* Lebar gambar pada layar kecil */
     }
     .greetings {
-        font-size: 4vw; /* Ukuran font greetings pada layar kecil */
+        font-size: 10vw; /* Ukuran font greetings pada layar kecil */
     }
     .description {
-        font-size: 2vw; /* Ukuran font description pada layar kecil */
+        font-size: 10vw; /* Ukuran font description pada layar kecil */
     }
     .button button,
     .button a {
-        font-size: 3vw; /* Ukuran font button pada layar kecil */
+        font-size: 5vw; /* Ukuran font button pada layar kecil */
         padding: 1.5vw 3vw; /* Padding tombol pada layar kecil */
     }
 }
