@@ -20,20 +20,17 @@ body {
 }
 
 .img {
-    text-align: center;
-    max-width: 50vw;
-    max-height: 50vh;
-    width: auto;
+    max-width: 90%; /* Lebar gambar maksimum */
     height: auto;
     display: block;
     margin-bottom: 20px;
 }
 
 .greetings {
-    font-size: 6rem;
+    font-size: 6vw; /* Ukuran huruf berdasarkan viewport */
     font-weight: 900;
-    margin-bottom: 20px; /* Tambahkan margin bawah untuk memberi ruang antara greetings dan description */
-    text-align: center; /* Pusatkan teks */
+    margin-bottom: 5vw; /* Ruang antara elemen */
+    text-align: center;
 }
 
 .greetings > span {
@@ -84,7 +81,7 @@ body {
 }
 
 .button {
-    margin-bottom: 20px; /* Tambahkan margin bawah untuk memberi ruang di antara button dan footer */
+    margin-bottom: 5vw; /* Tambahkan margin bawah untuk memberi ruang di antara button dan footer */
 }
 
 .button a {
@@ -94,6 +91,9 @@ body {
 }
 
 @media screen and (max-width: 574px) {
+    .img {
+        max-width: 50%;
+    }
     .greetings {
         font-size: 3rem;
         font-weight: 500;
