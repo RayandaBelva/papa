@@ -111,7 +111,7 @@ body {
         text-align: center;
     }
     .description {
-        font-size: 10vw; /* Ukuran font description pada layar kecil */
+        font-size: 7vw; /* Ukuran font description pada layar kecil */
         text-align: center;
     }
     .button button,
