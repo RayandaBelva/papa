@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
 
 * {
-    font-family: 'Poppins', sans-serif; /* Menggunakan sans-serif sebagai fallback font */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,13 +16,14 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
+    padding: 20px; /* Tambahkan padding untuk memberi ruang di sekitar konten */
 }
 
 .img {
-    max-width: 50vw; 
-    max-height: 50vh; 
-    width: auto; 
-    height: auto; 
+    max-width: 50vw;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
     display: block;
     margin-bottom: 20px;
 }
@@ -30,7 +31,8 @@ body {
 .greetings {
     font-size: 6rem;
     font-weight: 900;
-    margin-bottom: 10px; /* Menambahkan margin bawah yang lebih kecil */
+    margin-bottom: 20px; /* Tambahkan margin bawah untuk memberi ruang antara greetings dan description */
+    text-align: center; /* Pusatkan teks */
 }
 
 .greetings > span {
@@ -50,7 +52,12 @@ body {
 
 .description {
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Tambahkan margin bawah untuk memberi ruang antara description dan button */
+    text-align: center; /* Pusatkan teks */
+}
+
+.button {
+    margin-bottom: 20px; /* Tambahkan margin bawah untuk memberi ruang di antara button dan footer */
 }
 
 .button a {
@@ -63,11 +70,9 @@ body {
     .greetings {
         font-size: 3rem;
         font-weight: 500;
-        text-align: center;
     }
     .description {
         font-size: 1rem;
-        margin-bottom: 10px; /* Menambahkan margin bawah yang lebih kecil */
     }
     .button a {
         font-size: 0.5rem;
