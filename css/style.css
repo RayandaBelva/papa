@@ -16,20 +16,20 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
-    padding: 20px; /* Tambahkan padding untuk memberi ruang di sekitar konten */
+    padding: 20px; 
 }
 
 .img {
-    max-width: 90%; /* Lebar gambar maksimum */
+    max-width: 90vw; /* Maksimum lebar gambar sebagai 90% dari lebar viewport */
     height: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 5vh; /* Margin bawah untuk memberi ruang antara gambar dan elemen lainnya */
 }
 
 .greetings {
-    font-size: 6vw; /* Ukuran huruf berdasarkan viewport */
+    font-size: 6vw; /* Ukuran font greetings sebagai 6% dari lebar viewport */
     font-weight: 900;
-    margin-bottom: 5vw; /* Ruang antara elemen */
+    margin-bottom: 2vh; /* Margin bawah untuk memberi ruang antara greetings dan description */
     text-align: center;
 }
 
@@ -75,33 +75,45 @@ body {
     animation-delay: 2s;
 }
 
-.description{
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+.description {
+    font-size: 3vw; /* Ukuran font description sebagai 3% dari lebar viewport */
+    margin-bottom: 2vh; /* Margin bawah untuk memberi ruang antara description dan button */
+    text-align: center;
 }
 
 .button {
-    margin-bottom: 5vw; /* Tambahkan margin bawah untuk memberi ruang di antara button dan footer */
+    margin-bottom: 5vh; /* Margin bawah untuk memberi ruang di antara button dan footer */
+}
+
+.button button {
+    font-size: 2vw; /* Ukuran font button sebagai 2% dari lebar viewport */
+    background-color: #008CBA;
+    color: white;
+    padding: 1vw 2vw; /* Padding tombol sebagai 1% dari lebar viewport */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .button a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2vw; /* Ukuran font button sebagai 2% dari lebar viewport */
     color: #111;
 }
 
 @media screen and (max-width: 574px) {
     .img {
-        max-width: 50%;
+        max-width: 80vw; /* Lebar gambar pada layar kecil */
     }
     .greetings {
-        font-size: 3rem;
-        font-weight: 500;
+        font-size: 4vw; /* Ukuran font greetings pada layar kecil */
     }
     .description {
-        font-size: 1rem;
+        font-size: 2vw; /* Ukuran font description pada layar kecil */
     }
+    .button button,
     .button a {
-        font-size: 0.5rem;
+        font-size: 3vw; /* Ukuran font button pada layar kecil */
+        padding: 1.5vw 3vw; /* Padding tombol pada layar kecil */
     }
 }
