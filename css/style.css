@@ -12,6 +12,14 @@ body{
     justify-content: center;
     background-color: black;
 }
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
 .greetings{
     font-size: 6rem;
     font-weight: 900;
