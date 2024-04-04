@@ -27,7 +27,7 @@ body {
 }
 
 .greetings {
-    font-size: 6vw; /* Ukuran font greetings sebagai 6% dari lebar viewport */
+    font-size: 3vw; /* Ukuran font greetings sebagai 6% dari lebar viewport */
     font-weight: 900;
     margin-bottom: 2vh; /* Margin bawah untuk memberi ruang antara greetings dan description */
     text-align: center;
@@ -107,7 +107,7 @@ body {
         text-align: center;
     }
     .greetings {
-        font-size: 10vw; /* Ukuran font greetings pada layar kecil */
+        font-size: 15vw; /* Ukuran font greetings pada layar kecil */
         text-align: center;
     }
     .description {
